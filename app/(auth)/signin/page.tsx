@@ -9,7 +9,7 @@ import Cookies from "js-cookie"; // Import js-cookie
 import { useRouter } from "next/navigation";
 import { LOGIN_URL } from "@/data/constant";
 import { Loader } from "lucide-react";
-
+import Link from "next/link";
 // Validation schema using Yup
 const validationSchema = Yup.object({
   email: Yup.string()
@@ -103,6 +103,12 @@ const Signin = () => {
            {formik.isSubmitting && <Loader className='animate-spin'/> } Sign In
           </button>
         </form>
+        <p className="text-center mt-4">
+          Don't have an account?{" "}
+          <Link href="/signup" className="text-primary underline">
+            Sign Up
+          </Link>
+        </p>
       </div>
     </div>
   );
