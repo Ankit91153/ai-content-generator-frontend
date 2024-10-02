@@ -113,7 +113,7 @@ const Header = () => {
                 onClick={() => setSidebarOpen(false)}
                 className=" text-3xl absolute top-6 right-[-50px]"
               >
-                <X size={48} className="text-black" />
+                <X size={48} className="text-[#704EF8] w-15 h-15 rounded-full bg-slate-100 p-1 border border-slate-100" />
                 {/* Close button */}
               </button>
             )}
@@ -124,8 +124,11 @@ const Header = () => {
       <div className="flex gap-5 mx-5 items-center">
         {!user?.active && (
           <Link href={"/dashboard/billing"}>
-            <h2 className="bg-primary p-1 rounded-full text-xs text-white">
+            <h2 className="bg-primary p-1 rounded-full text-xs text-white sm:block hidden">
               Join Membership just for $9/Month
+            </h2>
+            <h2 className="bg-primary p-1 rounded-full text-xs text-white sm:hidden block">
+              Join Membership
             </h2>
           </Link>
         )}
