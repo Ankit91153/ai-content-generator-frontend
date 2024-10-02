@@ -133,7 +133,7 @@ const Header = () => {
           <DropdownMenuTrigger className="bg-green-700 border border-green-700 w-10 h-10 rounded-full text-white">
             {twoLetter}
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
+          <DropdownMenuContent className="left-[-20px]">
             <DropdownMenuLabel>My Account</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>{user.username}</DropdownMenuItem>
