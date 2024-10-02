@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto">
+      <div className="container grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 mx-auto p-5">
           <div className="flex flex-col gap-3 border border-slate-100 rounded-lg p-5">
               <div className="bg-[#7E5FF9] w-10 h-10 flex justify-center items-center rounded-lg text-center"><BookTemplate className="text-white"/></div>
               <h4 className="font-bold">25+ Templated</h4>
