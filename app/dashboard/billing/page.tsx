@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import axios from "axios";
 import React, { useState } from "react";
-import Razorpay from "Razorpay";
+import Razorpay from "razorpay";
 import { Loader2Icon } from "lucide-react";
 import { useStore } from "@/store/store";
 import { CREATE_SUBSCRIPTION, SAVE_PAYEMENT } from "@/data/constant";
