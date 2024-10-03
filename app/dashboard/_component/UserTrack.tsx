@@ -23,7 +23,7 @@ const UserTrack = () => {
   return (
     <div className="m-5">
       <div className="bg-primary text-white rounded-lg p-3">
-        <h2 className="font-medium text-black">Credits</h2>
+        <h2 className="font-medium">Credits</h2>
         <div className="h-2 bg-[#9981f9] w-full rounded-full">
           <div
             className="h-2 bg-white rounded-full"
